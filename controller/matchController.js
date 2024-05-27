@@ -39,12 +39,11 @@ module.exports.get_live_bets_two = get_live_bets_two = async (req, res) => {
   try {
     let url = `https://v3.football.api-sports.io/fixtures/?date=${x.getFullYear()}-${month_two}-${date_two}&status=NS`;
     //   let url = `https://v3.football.api-sports.io/fixtures/?date=2023-11-15&status=NS`;
-
     let response = await fetch(url, {
       method: "GET",
       headers: {
         "x-rapidapi-host": "v3.football.api-sports.io",
-        "x-rapidapi-key": "021ae6685ec46e47ec83f8848ac1d168",
+        "x-rapidapi-key": "e4540b0bf1d5f2151ed62880249e61c1",
         // "x-rapidapi-key": "823296afa77a4989062591abc46178ee"
       },
     });

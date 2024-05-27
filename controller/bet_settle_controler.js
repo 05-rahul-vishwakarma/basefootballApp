@@ -1326,6 +1326,8 @@ module.exports.update_channel_4_details = update_channel_4_details = async (
   }
 };
 
+// e4540b0bf1d5f2151ed62880249e61c1
+
 async function get_settled_bet_byID(id) {
   var options = {
     method: "GET",
@@ -1333,7 +1335,7 @@ async function get_settled_bet_byID(id) {
     qs: { id: id },
     headers: {
       "x-rapidapi-host": "v3.football.api-sports.io",
-      "x-rapidapi-key": "021ae6685ec46e47ec83f8848ac1d168",
+      "x-rapidapi-key": "e4540b0bf1d5f2151ed62880249e61c1",
       // "x-rapidapi-key": "823296afa77a4989062591abc46178ee"
     },
   };
